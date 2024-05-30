@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{a as r,b as i,c as p,h as n,k as m,m as f,n as s,q as a,w as c}from"./chunk-GYSYMNES.mjs";var d=(()=>{let o=class o{constructor(){this.title="digital-profile-project"}};o.\u0275fac=function(e){return new(e||o)},o.\u0275cmp=r({type:o,selectors:[["app-root"]],standalone:!0,features:[p],decls:1,vars:0,template:function(e,h){e&1&&i(0,"Hello world")}});let t=o;return t})();var l=[];var u={providers:[n({eventCoalescing:!0}),c(l),s()]};var C={providers:[a()]},g=m(u,C);var x=()=>f(d,g),q=x;export{q as a};
