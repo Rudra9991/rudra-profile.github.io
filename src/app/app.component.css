@@ -1,12 +1,26 @@
 
-h1 {
-  background-color: green;
-}
 
-div {
-  background-color: lightblue;
-}
-
-p {
+#parent {
+  border: 2px;
   background-color: yellow;
+  height: 150px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.conatiner{
+  display: flex;
+  
+}
+
+#child1 {
+  background-color: orange;
+  width: 30%;
+  height: 630px;
+  margin-right: 10px;
+}
+
+#child2 {
+  background-color: rgb(255, 25, 0);
+  width: 70%;
 }
