@@ -1,24 +1,32 @@
 
+div:hover{
+    border: solid;
+    transition: width 3s ;
+}
 
 #parent {
   border: 2px;
-  background-color: yellow;
-  height: 150px;
-  margin-bottom: 10px;
-  text-align: center;
+  background-color: white;
+  height: 120px;
+  
+  text-align: left;
 }
 
-.conatiner{
+/* .conatiner{
   display: flex;
   
-}
+} */
 
 #child1 {
-  background-color: orange;
-  width: 30%;
-  height: 630px;
+ 
+  /* width: 30%; */
+  border-top: solid;
+  border-bottom: solid;
+  border-color: black;
+  height: 260px;
   margin-right: 10px;
 }
+
 
 #child2 {
   background-color: rgb(255, 25, 0);
