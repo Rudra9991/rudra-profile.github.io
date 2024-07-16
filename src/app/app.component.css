@@ -27,8 +27,20 @@ div:hover{
   margin-right: 10px;
 }
 
+.linkedin{
+  height: 10px; 
+    width: 20px !important;
+    object-fit: cover !important;
+}
 
 #child2 {
-  background-color: rgb(255, 25, 0);
-  width: 70%;
+  /* border-top: solid; */
+  border-bottom: solid;
+  border-color: black;
+  height: 270px;
+  margin-right: 10px;
+}
+
+h4{
+  margin-bottom: auto;
 }
