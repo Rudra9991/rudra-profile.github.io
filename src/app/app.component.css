@@ -7,7 +7,7 @@ div:hover{
 #parent {
   border: 2px;
   background-color: white;
-  height: 120px;
+  height: fit-content;
   
   text-align: left;
 }
@@ -23,7 +23,7 @@ div:hover{
   border-top: solid;
   border-bottom: solid;
   border-color: black;
-  height: 260px;
+  height: fit-content;
   margin-right: 10px;
 }
 
@@ -37,7 +37,15 @@ div:hover{
   /* border-top: solid; */
   border-bottom: solid;
   border-color: black;
-  height: 270px;
+  height: fit-content;
+  margin-right: 10px;
+}
+
+#child3 {
+  /* border-top: solid; */
+  border-bottom: solid;
+  border-color: black;
+  height: fit-content;
   margin-right: 10px;
 }
 
