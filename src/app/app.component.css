@@ -52,3 +52,18 @@ div:hover{
 h4{
   margin-bottom: auto;
 }
+
+h1{
+  margin-bottom: auto;
+}
+
+.urls{
+  height: 36px;
+  align-content: center;
+}
+
+.ph{
+  display: flex;
+  float: left;
+  margin-left: 10px;
+}
